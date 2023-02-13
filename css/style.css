@@ -184,4 +184,35 @@
     /*DEBUG*/
     background-color: lightskyblue;
 }
+/*BANNER*/
+.banner{
+    min-height:200px;
+    margin-bottom:30px;
+    /*DEBUG*/
+    background-color:blue;
+}
+/*AGENCY SECTION*/
+.agency-section{
+    width:100%;
+    min-height:400px;
+    /*DEBUG*/
+    background-color: #006c67;
+}
+.agency-logos{
+    width:30%;
+    flex-wrap:wrap;
+    /*DEBUG*/
+    border: 1px solid black;
+}
+.agency-logo{
+    width:calc(100% / 2);
+    height: calc(100%/2);
+    /*DEBUG*/
+    border:1px solid white;
+}
+.agency-paragraph{
+    flex-grow:1;
+}
+/*AGENCY SECTION*/
+
 /*FOOTER*/
