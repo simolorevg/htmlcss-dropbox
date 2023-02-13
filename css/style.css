@@ -1,3 +1,36 @@
-body{
-    background-color: red;
+/*RESET*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
+
+/*FLEXBOX*/
+.fixed{
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+.flexspacebw{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+/*HEADER*/
+
+.navbar-header{
+    width:100%;
+
+    /*DEBUG*/
+    background-color: purple;
+    min-height:90px;
+}
+
+.nav-left{
+
+}
+/*MAIN*/
+
+/*FOOTER*/
