@@ -245,3 +245,8 @@
     background-color:grey;
 }
 /*FOOTER*/
+footer{
+    background-color: black;
+    color:white;
+    min-height:100px;
+}
