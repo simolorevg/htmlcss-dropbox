@@ -100,7 +100,8 @@
 
 /*BUSINESS PLAINS*/
 .business-plains{
-    margin-top:90px;
+    margin-top:80px;
+    margin-bottom:80px;
     height:1000px;
     /*DEBUG*/
     background-color: grey;
@@ -134,8 +135,25 @@
 .plain-footer{
     height:calc(100% - 80%);
     width:100%;
-    margin:10px 10px;
+    margin-top:10px;
     /*DEBUG*/
     border:1px solid black;
+}
+/*CARD*/
+.card{
+   height: 400px;
+   /*DEBUG*/
+   background-color: brown; 
+   margin-bottom:30px;
+}
+.card-info{
+    width:30%;
+    height: 100%;
+    /*DEBUG*/
+    background-color: magenta;
+}
+.card-img{
+    height:100%;
+    flex-grow:1;
 }
 /*FOOTER*/
