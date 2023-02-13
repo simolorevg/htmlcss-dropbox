@@ -16,7 +16,18 @@
     width:50%;
     margin:0 auto;
 }
-
+.action-button{
+    width:4em;
+    height:2em;
+    text-align: center;
+    vertical-align: middle;
+}
+/*ACTION BUTTON COLORS*/
+.blue{
+    background-color: #0062fe;
+    border-color: #0062fe;
+    color:white;
+}
 /*POSITION*/
 
 .fixed{
@@ -48,6 +59,16 @@
 .flex{
     display:flex;
 }
+.flex-end-center{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.flex-start-center{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 .flexcenter{
     display: flex;
     justify-content: center;
@@ -60,21 +81,27 @@
     width:100%;
     height:90px;
     padding: 10px;
-    /*DEBUG*/
-    background-color: purple;
 }
 
 .nav-left,
 .nav-right{
     width:30%;
     height:100%;
-    justify-content: center;
-    align-items: center;
-    /*DEBUG*/
-    border:1px solid white;
 }
 .header-logo{
-
+    width:20%;
+}
+.header-list ul{
+    margin:0 20px;
+    flex-grow: 1;
+    list-style-type: none;
+}
+.header-list li{
+    margin:0 20px;
+}
+.header-list a{
+    text-decoration:none;
+    color:inherit;
 }
 
 /*JUMBOTRON SECTION*/
