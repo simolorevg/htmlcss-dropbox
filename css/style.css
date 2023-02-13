@@ -39,6 +39,11 @@
 .flex{
     display:flex;
 }
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*HEADER*/
 
 /*NAVBAR*/
@@ -213,6 +218,30 @@
 .agency-paragraph{
     flex-grow:1;
 }
-/*AGENCY SECTION*/
+/*CALL TO ACTION*/
+.call-to-action{
+    width:100%;
+    min-height: 200px;
+    background-color: #add2e5;
+}
+.slogan{
+    width:60%;
+    min-height:100px;
 
+    /*DEBUG*/
+    background-color: #6c002a;
+}
+.button-to-action{
+    width:40%;
+    /*DEBUG*/
+    background-color: grey;
+}
+
+/*FAQ SECTION*/
+.faq{
+    margin: 50px auto;
+    min-height:200px;
+    /*DEBUG*/
+    background-color:grey;
+}
 /*FOOTER*/
