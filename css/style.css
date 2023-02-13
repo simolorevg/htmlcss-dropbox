@@ -250,3 +250,18 @@ footer{
     color:white;
     min-height:100px;
 }
+.footer-columns{
+    width:100%;
+    min-height: 200px;
+    margin-top:10px;
+    margin-bottom:40px;
+    /*DEBUG*/
+    border: 1px solid white;
+}
+.footer-col{
+    width:calc(100% / 5);
+    min-height: 200px;
+    margin-right:5px;
+    /*DEBUG*/
+    border:2px solid red;
+}
