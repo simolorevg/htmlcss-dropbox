@@ -115,6 +115,7 @@
 .plain-show{
     height: calc(100% - 20%);
     width:100%;
+    margin-bottom:20px;
     /*DEBUG*/
     background-color: coral;
 }
