@@ -6,6 +6,9 @@
 }
 
 /*COMMON*/
+img{
+    max-width: 100%;;
+}
 a{
     color:inherit;
     text-decoration: none;
@@ -50,6 +53,10 @@ a{
 }
 .absolute{
     position:absolute;
+}
+/*FONT SIZE*/
+.font-size-1-5{
+    font-size: 1.5rem;
 }
 
 /*MARGIN*/
@@ -149,21 +156,17 @@ a{
     width:30%;
     height:100%;
     padding:10px 5px;
-    /*DEBUG*/
-    border:1px solid black;
 }
 .jumbo-img{
     flex-grow: 1;
     height:100%;
-    /*DEBUG*/
-    border:1px solid black;
 }
 
 /*MAIN*/
 
 /*BUSINESS PLAINS*/
 .business-plains{
-    margin-top:80px;
+    margin-top:150px;
     margin-bottom:80px;
     height:1000px;
     /*DEBUG*/
