@@ -24,6 +24,12 @@
     top:0;
     left:0;
 }
+.relative{
+    position:relative;
+}
+.absolute{
+    position:absolute;
+}
 
 /*FLEXBOX*/
 .flexspacebw{
@@ -35,6 +41,9 @@
     flex-direction: column;
     align-items: center;
     justify-items: center;
+}
+.flexstart{
+    justify-content: flex-start;
 }
 .flex{
     display:flex;
@@ -254,7 +263,9 @@ footer{
     width:100%;
     min-height: 200px;
     margin-top:10px;
-    margin-bottom:40px;
+    margin-bottom:50px;
+    top:0;
+    left:0;
     /*DEBUG*/
     border: 1px solid white;
 }
@@ -264,4 +275,14 @@ footer{
     margin-right:5px;
     /*DEBUG*/
     border:2px solid red;
+}
+/*LANGUAGE*/
+.language{
+    width:200px;
+    height:50px;
+    margin-top:40px;
+    bottom:0;
+    left:0;
+    /*DEBUG*/
+    background-color: aquamarine;
 }
