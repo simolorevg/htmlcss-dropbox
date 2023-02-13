@@ -156,13 +156,32 @@
     height:100%;
     flex-grow:1;
 }
-
+/*FUNCTION SECTION*/
 .function-section{
     height:900px;
+    margin-bottom:10px;
     /*DEBUG*/
     background-color: salmon;
 }
 .title-function{
+    width:100%;
+    height:20%;
+    /*DEBUG*/
+    border: 1px solid black;
+}
+.function-columns{
+    width:100%;
+    height:calc(100% - 20%);
+    flex-wrap:wrap;
+    /*DEBUG*/
+    border: 1px solid black;
+}
+.function-col{
+    width: calc(100% / 3 - 10px);
+    margin:5px;
+    min-height:200px;
     
+    /*DEBUG*/
+    background-color: lightskyblue;
 }
 /*FOOTER*/
