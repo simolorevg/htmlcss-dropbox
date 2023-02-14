@@ -207,7 +207,7 @@ a{
 }
 .jumbo-paragraph i{
     font-size:3em;
-    margin-top:30px;
+    margin-top:80px;
 }
 .jumbo-img{
     width: 70%;
@@ -267,6 +267,9 @@ a{
 }
 .function-summary{
     height:60%;
+}
+.check-blue{
+    color: blue;
 }
 /*PLAIN FOOTER STRUCTURE*/
 .plain-footer{
