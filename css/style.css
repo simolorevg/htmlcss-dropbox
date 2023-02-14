@@ -313,8 +313,6 @@ a{
 .agency-section{
     width:100%;
     min-height:400px;
-    /*DEBUG*/
-    background-color: #006c67;
 }
 .agency-logos{
     width:30%;
@@ -325,11 +323,31 @@ a{
 .agency-logo{
     width:calc(100% / 2);
     height: calc(100%/2);
-    /*DEBUG*/
-    border:1px solid white;
 }
 .agency-paragraph{
     flex-grow:1;
+}
+/*AGENCY COLOR*/
+.green{
+    background-color: #ceeaca;
+}
+.brown{
+    background-color: #6c002a;
+}
+.lightblue{
+    background-color: #0093ca;
+}
+.red{
+    background-color: #ff0000;
+}
+.yellow{
+    background-color: #ffd730;
+}
+.darkblue{
+    background-color: #002978;
+}
+.default{
+    background-color: #add2e5;
 }
 /*CALL TO ACTION*/
 .call-to-action{
