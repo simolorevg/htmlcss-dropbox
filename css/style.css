@@ -257,20 +257,18 @@ a{
 }
 /*CARD*/
 .card{
-   height: 400px;
-   /*DEBUG*/
-   background-color: brown; 
-   margin-bottom:30px;
+   height: 500px;
 }
 .card-info{
-    width:30%;
+    width:40%;
     height: 100%;
-    /*DEBUG*/
-    background-color: magenta;
 }
 .card-img{
     height:100%;
     flex-grow:1;
+    background-image: url("../img/partner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 /*FUNCTION SECTION*/
 .function-section{
