@@ -108,6 +108,9 @@ a{
 .margin-left90{
     margin-left: 90px;
 }
+.margin-right10{
+    margin-right:10px;
+}
 /*FLEXBOX*/
 .flexspacebw{
     display:flex;
@@ -401,7 +404,7 @@ a{
 footer{
     background-color: black;
     color:white;
-    min-height:400px;
+    height:500px;
 }
 .footer-columns{
     width:100%;
@@ -410,14 +413,13 @@ footer{
     margin-bottom:50px;
     top:0;
     left:0;
-    /*DEBUG*/
-    border: 1px solid white;
 }
 .footer-col{
     width:20%;
     min-height: 200px;
-    /*DEBUG*/
-    border:2px solid red;
+}
+.footer-col ul li{
+    margin-bottom: 10px;
 }
 /*LANGUAGE*/
 .language{
@@ -426,6 +428,4 @@ footer{
     margin-top:40px;
     bottom:0;
     left:0;
-    /*DEBUG*/
-    background-color: aquamarine;
 }
