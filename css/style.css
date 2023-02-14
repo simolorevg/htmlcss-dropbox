@@ -20,7 +20,10 @@ a{
     width:70%;
     margin:0 auto;
 }
-
+.column-container{
+    width: 80%;
+    margin: 0 auto;
+}
 .container-small{
     width:50%;
     margin:0 auto;
@@ -193,12 +196,10 @@ a{
     width:100%;
     height:80%;
 }
-/*PLAIN COLUMN*/
+/*PLAIN COLUMN STRUCTURE*/
 .plain-column{
-    width: calc(100% / 3 - 20px);
+    width: 30%;
     height:100%;
-    margin-left:10px;
-    margin-right:10px;
     /*DEBUG*/
     border: 1px solid black;
 }
@@ -207,13 +208,18 @@ a{
     height:10%;
     border-bottom:1px solid black;
 }
+.plain-type{
+    padding-top:30px;
+}
+/*PLAIN FOOTER STRUCTURE*/
 .plain-footer{
     height:calc(100% - 80%);
-    width:calc(100% - 20px);
+    width:calc(100%);
     margin-top:30px;
     /*DEBUG*/
     border:1px solid black;
 }
+
 /*CARD*/
 .card{
    height: 400px;
@@ -318,11 +324,11 @@ a{
 footer{
     background-color: black;
     color:white;
-    min-height:100px;
+    min-height:400px;
 }
 .footer-columns{
     width:100%;
-    min-height: 200px;
+    min-height: 300px;
     margin-top:10px;
     margin-bottom:50px;
     top:0;
@@ -331,9 +337,8 @@ footer{
     border: 1px solid white;
 }
 .footer-col{
-    width:calc(100% / 5);
+    width:20%;
     min-height: 200px;
-    margin-right:5px;
     /*DEBUG*/
     border:2px solid red;
 }
