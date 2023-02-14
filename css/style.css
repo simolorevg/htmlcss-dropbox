@@ -83,6 +83,9 @@ a{
 .margin-top10{
     margin-top:10px;
 }
+.margin-bottom150{
+    margin-bottom: 150px;
+}
 .margin-bottom40{
     margin-bottom:40px;
 }
@@ -303,10 +306,8 @@ a{
 }
 /*BANNER*/
 .banner{
-    min-height:200px;
+    height:200px;
     margin-bottom:30px;
-    /*DEBUG*/
-    background-color:blue;
 }
 /*AGENCY SECTION*/
 .agency-section{
