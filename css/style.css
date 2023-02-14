@@ -330,7 +330,10 @@ a{
     width:150px;
 }
 .agency-paragraph{
-    flex-grow:1;
+    width:40%;
+}
+.agency-paragraph img{
+    width: 300px;
 }
 .mini-box{
     width:100%;
