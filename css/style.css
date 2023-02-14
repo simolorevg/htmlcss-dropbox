@@ -139,6 +139,10 @@ a{
     justify-content: center;
     align-items: center;
 }
+.flexaligncenter{
+    display:flex;
+    align-items: center;
+}
 /*HEADER*/
 /*NAVBAR*/
 .navbar-header{
@@ -278,12 +282,11 @@ a{
 .function-section{
     height:900px;
     margin-bottom:10px;
-    /*DEBUG*/
-    background-color: salmon;
 }
 .title-function{
     width:100%;
     height:20%;
+    font-size: 1.6em;
     /*DEBUG*/
     border: 1px solid black;
 }
@@ -349,7 +352,6 @@ a{
     /*DEBUG*/
     background-color: grey;
 }
-
 /*FAQ SECTION*/
 .faq{
     margin: 50px auto;
