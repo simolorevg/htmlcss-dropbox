@@ -49,6 +49,10 @@ a{
     border-color: #0062fe;
     color:white;
 }
+.black{
+    color:black;
+    border:0.5px solid black;
+}
 /*POSITION*/
 
 .fixed{
