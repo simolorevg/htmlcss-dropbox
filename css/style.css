@@ -105,6 +105,9 @@ a{
     margin-left: 10px;
     margin-right: 10px;
 }
+.margin-left90{
+    margin-left: 90px;
+}
 /*FLEXBOX*/
 .flexspacebw{
     display:flex;
@@ -205,6 +208,9 @@ a{
     height:100%;
 }
 /*MAIN*/
+.title{
+    font-size: 2.3em;
+}
 /*BUSINESS PLAINS*/
 .business-plains{
     margin-top:150px;
@@ -370,7 +376,7 @@ a{
 /*CALL TO ACTION*/
 .call-to-action{
     width:100%;
-    height: 400px;
+    height: 300px;
     background-color: #add2e5;
 }
 .slogan{
@@ -385,9 +391,11 @@ a{
 /*FAQ SECTION*/
 .faq{
     margin: 50px auto;
-    min-height:200px;
-    /*DEBUG*/
-    background-color:grey;
+    height: 400px;
+}
+.question{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 /*FOOTER*/
 footer{
