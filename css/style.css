@@ -53,6 +53,9 @@ a{
     color:black;
     border:0.5px solid black;
 }
+.white{
+    background-color: #ffffff;
+}
 /*POSITION*/
 
 .fixed{
@@ -367,20 +370,17 @@ a{
 /*CALL TO ACTION*/
 .call-to-action{
     width:100%;
-    min-height: 200px;
+    height: 400px;
     background-color: #add2e5;
 }
 .slogan{
     width:60%;
     min-height:100px;
-
-    /*DEBUG*/
-    background-color: #6c002a;
+    color: #6c002a;
 }
 .button-to-action{
     width:40%;
-    /*DEBUG*/
-    background-color: grey;
+    color:black;
 }
 /*FAQ SECTION*/
 .faq{
