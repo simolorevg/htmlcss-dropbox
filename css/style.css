@@ -410,7 +410,12 @@ a{
 }
 .question{
     border-top: 1px solid black;
-    border-bottom: 1px solid black;
+}
+.question p{
+    display: none;
+}
+.question:hover p{
+    display: block;
 }
 /*FOOTER*/
 footer{
