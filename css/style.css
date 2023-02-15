@@ -172,6 +172,8 @@ a{
     height:90px;
     padding: 10px;
     background-color: white;
+    box-shadow: 5px 5px 10px 5px rgba(38, 38, 38, 0.564);
+    z-index: 999;
 }
 .nav-left,
 .nav-right{
@@ -202,12 +204,10 @@ a{
     height:700px;
     margin-top:90px;
     background-color: #add2e5;
-    position: relative;
 }
 .jumbo-adv{
     height:100%;
-    position: relative;
-    top: 8%;
+    padding-top: 50px;
 }
 .jumbo-title{
     width:100%;
