@@ -30,6 +30,9 @@ a{
     width:50%;
     margin:0 auto;
 }
+h2{
+    font-size: 2em;
+}
 /*ACTION BUTTON*/
 .action-button{
     width:4em;
@@ -164,6 +167,10 @@ a{
 /*BORDER*/
 .border-bottom{
     border-bottom: 1px solid black;
+}
+/*FONT SIZE*/
+.font-small{
+    font-size: 500;
 }
 /*HEADER*/
 /*NAVBAR*/
