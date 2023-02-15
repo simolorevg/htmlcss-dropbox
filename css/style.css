@@ -171,6 +171,7 @@ a{
 .nav-right{
     width:30%;
     height:100%;
+    line-height: 90px;
 }
 .header-logo{
     width:20%;
@@ -185,6 +186,9 @@ a{
 .header-list a{
     text-decoration:none;
     color:inherit;
+}
+.header-list li:hover{
+    border-bottom: 2px solid black;
 }
 /*JUMBOTRON SECTION*/
 .jumbotron{
