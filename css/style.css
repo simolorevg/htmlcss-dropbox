@@ -4,7 +4,6 @@
     padding:0;
     box-sizing: border-box;
 }
-
 /*COMMON*/
 body{
     font-family: 'Open Sans', sans-serif;   
@@ -31,7 +30,6 @@ a{
     width:50%;
     margin:0 auto;
 }
-
 /*ACTION BUTTON*/
 .action-button{
     width:4em;
@@ -57,7 +55,6 @@ a{
     background-color: #ffffff;
 }
 /*POSITION*/
-
 .fixed{
     position: fixed;
     top:0;
@@ -157,6 +154,10 @@ a{
 .flexaligncenter{
     display:flex;
     align-items: center;
+}
+/*BORDER*/
+.border-bottom{
+    border-bottom: 1px solid black;
 }
 /*HEADER*/
 /*NAVBAR*/
